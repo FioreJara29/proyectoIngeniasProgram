@@ -45,7 +45,7 @@ h2 {
 }
 
 .subtitulo {
-  font-size: 19px !important;
+  font-size: 18px !important;
 }
 .titulo{
   width: 28%;
@@ -71,8 +71,14 @@ li {
   line-height: 140%;
 }
 
+pre {
+  margin: 0;
+  text-wrap: balance !important;
+  display: table;
+}
+
 #lista-rec {
-  font-size: 13.5px;
+  font-size: 15px;
   font-style: normal;
   line-height: 150%;
 }
@@ -150,14 +156,14 @@ p.reciclable-descripcion {
   line-height: 20px;
   background-color: rgb(255, 255, 255);
   font-family: "Vollkorn";
-  font-size: 15px;
+  font-size: 17px;
 }
 p.raee-descripcion {
   text-align: justify;
   line-height: 20px;
   background-color: rgb(255, 255, 255);
   font-family: "Vollkorn";
-  font-size: 15px;
+  font-size: 17px;
 }
 
 h4 {
@@ -166,7 +172,7 @@ h4 {
   background-color: #bed9f1;
   border-radius: 20px 20px;
   font-weight: 100;
-  font-size: 18px;
+  font-size: 20px;
   width: 50%;
   margin: 0;
 }
