@@ -45,6 +45,10 @@ h2 {
   border-radius: 20px 20px;
 }
 
+h2.titulo2 {
+  width: 75%;
+}
+
 .subtitulo {
   font-size: 18px !important;
 }
@@ -163,6 +167,23 @@ img.reciclajeraee {
   margin-bottom: 3%;
 }
 
+img.saludymedio {
+  border-radius: 20px;
+}
+
+img.factores {
+  height: 70%;
+  width: 70%;
+  border-radius: 20px;
+  margin-bottom: 5%;
+}
+
+img.nube {
+  border-radius: 20px;
+  height: 85%;
+  width: 50%;
+}
+
 .descripcion-con-imagen {
   display: flex;
   flex-direction: row;
@@ -192,6 +213,27 @@ p.raee-descripcion {
   margin-left: 5%;
 }
 
+p.salud-descripcion{
+  text-align: justify;
+  line-height: 20px;
+  background-color: rgb(255, 255, 255);
+  font-family: "Vollkorn";
+  font-size: 17px;
+}
+
+p.cita {
+  background-color: #c9ff87;
+  border-radius: 20px;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.info-factores {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 h4 {
   text-align: center;
   font-family: "Vollkorn", sans-serif;
@@ -201,6 +243,11 @@ h4 {
   font-size: 20px;
   width: 50%;
   margin: 0;
+}
+
+iframe {
+  margin-bottom: 30px;
+  border-radius: 20px;
 }
 
 footer {
